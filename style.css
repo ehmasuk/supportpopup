@@ -2,13 +2,13 @@ p {
     margin: 0;
 }
 .chat-support-box {
+    width: 372px;
     position: fixed;
     right: 200px;
     bottom: 20px;
     z-index: 99;
     max-width: 100%;
     background-color: rgb(255, 255, 255);
-    /* box-shadow: #00122e29 0px 8px 36px 0px; */
 
 }
 .chat-support-inner {
@@ -17,6 +17,7 @@ p {
     overflow: hidden;
     height: 80vh;
     border-radius: 20px;
+    max-width: 100%;
 
 }
 .chat-support-inner .header {
@@ -96,9 +97,8 @@ p {
     background: #ffffff;
     border: 1px solid #f4eeff;
     box-shadow: 0px 4px 4px #f5f8ff;
-    /* border-radius: 175px; */
-    height: 50px;
-    padding: 10px 70px 10px 90px;
+    height: 80px;
+    padding: 10px 80px 10px 30px;
     outline: none;
 }
 .direct-msg-inner .main-submit {
@@ -117,32 +117,11 @@ p {
     color: #fff;
     align-items: center;
 }
-.direct-msg-inner .fa-smile {
-    position: absolute;
-    left: 15px;
-    top: 14px;
-    z-index: 2;
-    font-size: 20px;
-    cursor: pointer;
-}
-.direct-msg-inner .fa-smile:hover {
-    color: tomato;
-}
-.direct-msg-inner .main-attach:hover {
-    color: tomato;
-}
-.direct-msg-inner .main-attach {
-    position: absolute;
-    left: 55px;
-    top: 14px;
-    z-index: 2;
-    font-size: 20px;
-    cursor: pointer;
-}
+
 .chat-support-inner .footer {
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 80px;
     width: 100%;
 }
 .chat-support-inner .body {
@@ -152,7 +131,7 @@ p {
     background-color: rgb(255, 255, 255);
     position: absolute;
     bottom: 80px;
-    padding-top: 220px;
+    padding-top: 200px;
 }
 .chat-support-inner .body .incomming-msg {
     display: flex;
@@ -235,7 +214,7 @@ p {
 }
 
 
-.chat-support-box .bubble-support{
+.chat-support-box .bubble-support {
     height: 60px;
     width: 60px;
     align-items: center;
@@ -245,7 +224,21 @@ p {
     box-shadow: rgba(0, 77, 255, 0.5) 0px 4px 24px;
     border-radius: 50%;
     cursor: pointer;
-    position: relative;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    z-index: 2;
+}
+.direct-msg-inner .main-submit{
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: linear-gradient(135deg, rgb(42, 39, 218), rgb(0, 204, 255));
+    box-shadow: rgba(0, 77, 255, 0.5) 0px 4px 24px;
+    border-radius: 50%;
+    cursor: pointer;
 }
 .chat-support-box .bubble-support .fa-pencil-alt{
     background-color: #fff;
@@ -264,11 +257,14 @@ p {
     scale: 1;
 }
 
-
-
-
-
-
+.land-gratings{
+    padding: 20px;
+    border-radius: 20px;
+    width: 320px;
+    box-shadow:#00122e29 0px 8px 36px 0px;
+    display: none;
+    max-width: 100%;
+}
 
 
 
