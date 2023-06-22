@@ -259,10 +259,11 @@ p {
 
 .land-gratings{
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 20px 20px 0 20px;
     width: 320px;
     box-shadow:#00122e29 0px 8px 36px 0px;
-    display: none;
+    /* display: none; */
+    margin-bottom: 80px;
     max-width: 100%;
 }
 
