@@ -270,7 +270,15 @@ p {
 
 
 
-
+.chat-support-inner .connecting-note{
+    padding: 15px 20px;
+    color: #000;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+}
 
 
 
